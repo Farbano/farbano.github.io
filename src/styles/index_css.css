@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+html{
+    background: url(../images/pixelnature2.png) no-repeat;
+    background-size: cover;
+}
+body{
+    height: 2400px;
+    width: 1840px;
+}
+#main{
+    width: 100%;
+    font-family: 'VT323', monospace;
+    padding-left: 0;
+    margin-left: 0;
+
+}
+#DivNav{
+    width:100%;
+
+    padding-left: 20px;
+
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: left;
+
+    position: static;
+
+    font-size: 50px;
+
+}
+#DivNav a{
+    margin-right: 30px;
+}
+nav a:last-of-type{
+    margin-right: 0;
+}
+p{
+    text-align: justify;
+    color: #a97155;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#div1{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+h1{
+    font-size: 50px;
+}
+#div2,
+#div3 {
+    margin-top: 100px;
+    margin-left: 40px;
+    display: none;
+}
+#div2 p, #div3 p{
+    font-size: 30px;
+}
+#whoosh{
+    font-size: 30px;
+}

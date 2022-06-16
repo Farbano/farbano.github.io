@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="src/styles/index_css.css">
+    <title>Home</title>
+</head>
+<body>
+<div id="main">
+    <div id="DivNav">
+        <a href="#">Home</a>
+        <a href="about.html">About</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div id="div1">
+        <h1>Hi, I'm Marino</h1>
+        <p style="font-size: 30px">Wanna get to know me?<br>Great! Go through this door -> <a href="#div2" onclick="myFunction()"><img src="src/images/castledoors.png" style="max-height: 32px; width:auto" alt=""></a> (click on it) </p>
+    </div>
+    <br>
+    <br>
+    <div id="div2">
+        <span id="whoosh">*whoosh*</span>
+        <h1 id="living">So what do I do for a living?</h1>
+        <p > Well, I'm a student, so for about 9 months of the year I attend lectures and study. Over the summer I mostly relax and go out, but I also do some "perosnal" studying.<br> By personal studying I mean that I learn things that I want to learn. </p>
+        <p>Currently I'm in the process of learning C#, and Unity alongside that. I want to take a swing at making video games, mainly as a hobby.</p>
+    </div>
+    <div id="div3">
+        <p>I don't have anything else to say on this page, so here's my favorite video game:<br><a href="https://elderscrolls.bethesda.net/en/skyrim" target="_blank" rel="noopener noreferrer"><img src="src/images/Skyrim-logo.png" style="max-height: 300px; width:auto" alt=""></a><br></p>
+        <p style="font-size: 12px">PS: Please enjoy the pixel-art landscape below, you won't be seeing it again :)</p>
+    </div>
+
+
+</div>
+
+<script>
+    function myFunction() {
+        document.getElementById("div2").style.display = "block";
+        document.getElementById("div3").style.display = "block";
+        setTimeout(my2ndFunction,5000);
+    }
+    function my2ndFunction(){
+        document.getElementById("whoosh").style.display="none";
+        document.getElementById("living").scrollIntoView();
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+html{
+    background: url(../images/pixelclouds.png) no-repeat;
+    background-size: cover;
+}
+body{
+    height: content-box;
+    width: 1840px;
+}
+#main{
+    width: 100%;
+    font-family: 'VT323', monospace;
+    padding-left: 0;
+    margin-left: 0;
+
+}
+#DivNav{
+    width:100%;
+
+    padding-left: 20px;
+
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: left;
+
+    position: static;
+
+    font-size: 50px;
+
+}
+#DivNav a{
+    margin-right: 30px;
+}
+nav a:last-of-type{
+    margin-right: 0;
+}
+p{
+    text-align: justify;
+    color: #a97155;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#div1{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+h1{
+    font-size: 50px;
+}
+#div2 {
+    margin-top: 100px;
+    margin-left: 40px;
+}
+#div3 {
+    margin: 100px;
+    margin-left: 40px;
+}
+#div1 p,
+#div2 p {
+    font-size: 30px;
+}
+ul {
+    font-size: 28px;
+
+
+}
+ul span{
+    color: #a97155;
+}
+li:nth-child(1){
+    list-style-image: url("../images/emailbullet.svg");
+}
+li:nth-child(2){
+    list-style-image: url("../images/phonebullet.svg");
+}
+li:nth-child(3){
+    list-style-image: url("../images/instagrambullet.svg");
+}
+li:nth-child(4){
+    list-style-image: url("../images/facebookbullet.svg");
+}
