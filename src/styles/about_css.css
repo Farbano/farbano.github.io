@@ -38,6 +38,7 @@ nav a:last-of-type{
 p{
     text-align: justify;
     color: #a97155;
+    width: 95vw;
 }
 a{
     text-decoration: none;
